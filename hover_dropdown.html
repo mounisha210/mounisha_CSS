@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>basic selectors</title>
+        <style>
+            .b{
+                width:150px;
+                background-color:blueviolet;
+                padding:10px;
+                border:none;
+                font-size:30px;
+            }
+            .ab{
+                position: relative;
+                display: inline-block;
+            }
+            .c{
+                display: none;
+                position: absolute;
+            }
+            .c:hover a{
+                text-decoration: none;
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="aa">
+            <button class="b">Courses</button>
+            <div class="c">
+                <a href="#">ReactJs</a><br>
+                <a href="#">Angular</a><br>
+                <a href="#">NodeJs</a><br>
+                <a href="#">ExpressJs</a>
+            </div>
+        </div>
+    </body>
+</html>
